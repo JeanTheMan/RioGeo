@@ -1,0 +1,19 @@
+{
+  "name": "riogeo-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Logging reverse proxy for geoguessr.com and its subdomains",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start:compat": "node server.js",
+    "start:server": "pwsh -ExecutionPolicy Bypass -File scripts/start-server.ps1",
+    "client": "node client/proxy.js",
+    "cert:gen": "node scripts/generate-cert.js",
+    "install:github": "pwsh -ExecutionPolicy Bypass -File scripts/install-from-github.ps1"
+  },
+  "dependencies": {
+    "http-mitm-proxy": "^1.1.0",
+    "ws": "^8.18.0"
+  }
+}
