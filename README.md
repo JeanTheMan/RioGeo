@@ -15,7 +15,7 @@ connect two players to the same RioGeo host, open Quickplay Single/Standard Duel
 - Optional JS capture mode for troubleshooting client behavior.
 - One-command Windows installer with dependency + cert bootstrap.
 
-## Why People Use It
+## Use Case
 
 RioGeo is built for scenarios where you want controlled 1v1 matches and predictable sessions:
 
