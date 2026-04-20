@@ -6,7 +6,7 @@ connect two players to the same RioGeo host, open Quickplay Single/Standard Duel
 
 ## Feature Highlights
 
-- Private 1v1 flow using normal GeoGuessr Quickplay duels UX.
+- Private 1v1 flow using normal GeoGuessr Steam Client.
 - Built-in matchmaking queue for waiting players.
 - Web admin panel to monitor players and control pairing.
 - Auto-match mode and manual pair mode.
